@@ -1,5 +1,5 @@
 body {
-    background-color: #111111;
+    background-color: #111;
     padding:50px;
     font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color:#f5f5f5;
@@ -105,7 +105,7 @@ body {
   
   header {
     width:270px;
-    float:left;
+    float: left;
     position:fixed;
     -webkit-font-smoothing:subpixel-antialiased;
   }
@@ -171,6 +171,7 @@ body {
   
   section {
     width:500px;
+    position: relative;
     float:right;
     padding-bottom:50px;
   }
@@ -227,6 +228,10 @@ body {
       right:50px;
       top:52px;
     }
+  }
+
+  .graph {
+    padding-bottom: 50px;
   }
   
   @media print, screen and (max-width: 720px) {
